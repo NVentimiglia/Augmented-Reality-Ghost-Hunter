@@ -1,0 +1,23 @@
+using UnityEngine;
+using System.Collections;
+using UnityEngine.UI;
+
+/// <summary>
+/// Phone AR Controller
+/// </summary>
+public class GyroController : MonoBehaviour
+{
+    void Awake()
+    {
+        Input.gyro.enabled = true;
+    }
+
+    void Update()
+    {
+        // Invert the z and w of the gyro attitude
+        var rotFix = new Quaternion(Input.gyro.attitude.x, Input.gyro.attitude.y, -Input.gyro.attitude.z, -Input.gyro.attitude.w);
+       
+        // Now set the local rotation of the child camera object
+        transform.localRotation = rotFix;
+    }
+}

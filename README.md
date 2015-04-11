@@ -5,6 +5,10 @@ https://www.youtube.com/watch?v=q23m32TEpwQ
 
 ### Preable
 
-This project includes the critical assets for creating my ghost hunter game. I have left out much of the gameplay logic (game controller, ghost logic, ghost models, sounds) because
-1) the sfx and models are premium and I dont belive I should distribute them. 2) The basics of point and shoot are taught by people better paid then me. Again, this tutorial is ment to teach you about intigrating augmenting reallity into a game, not teach you how to make games.
+This project includes the critical assets for creating my ghost hunter game. 
+
+I have left out much of the gameplay logic (game controller, ghost logic, ghost models, sounds) because :
+
+- The effects and models I used were premium content from the asset store. I do not have a license to distrubute them.
+- You really dont care about my gameplay logic. Its really basic. You care about my webcamera shader.
 

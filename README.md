@@ -3,8 +3,6 @@ Augmented Reality Game Ghost Hunter Assets for Unity3d
 
 https://www.youtube.com/watch?v=q23m32TEpwQ
 
-### Preable
-
 This project includes the critical assets for creating my ghost hunter game. 
 
 I have left out much of the gameplay logic (game controller, ghost logic, ghost models, sounds) because :
